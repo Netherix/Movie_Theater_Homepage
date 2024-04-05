@@ -1,0 +1,40 @@
+/* Ensure consistent image sizes within cards */
+.card-img-top {
+  height: 200px; /* Adjust height as needed */
+  object-fit: cover; /* Ensure images fill the space without distortion */
+}
+
+/* Center align card titles */
+.card-title {
+  text-align: center;
+}
+
+/* Ensure consistent sizing for cards */
+.card {
+  border: 1px solid #dee2e6; /* Add a border to the card */
+  border-radius: 0.25rem; /* Add border radius for aesthetics */
+}
+
+/* Adjust spacing and font for consistency */
+#bottom {
+  width: 100%;
+  margin: 0;
+  padding: 20px; /* Add padding for spacing */
+}
+
+#map {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+
+/* Ensure consistent spacing for the cards section */
+#cards {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
